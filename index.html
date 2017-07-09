@@ -12,16 +12,17 @@
   <body>
     <div class="jumbotron">
 
-    </div>
+    </div> <!-- end jumbotron -->
+
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="panel panel-default">
-            <div class="panel-heading">Search for a Keyword</div>
+            <div class="panel-heading">Add an NBA star to see his best dunks!</div>
             <div class="panel-body">
               <div class="input-group">
                 <span class="input-group-btn">
-                  <button id="goButton" class="btn btn-default" type="button">Go!</button>
+                  <button id="addButton" class="btn btn-default" type="button">Go!</button>
                 </span>
                 <input id="input" type="text" class="form-control" placeholder="Search for...">
               </div> <!-- end input group for keyword search -->
@@ -32,7 +33,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="panel panel-default">
-            <div class="panel-heading">Hit a Gif Button!</div>
+            <div class="panel-heading">Hit a Button for Some Slamma Jamma!</div>
             <div id="gif-buttons-go-here" class="panel-body"></div>
           </div> <!-- end gif button panel -->
         </div> <!-- end gif button col -->
@@ -41,7 +42,11 @@
         <div class="col-md-12">
           <div class="panel panel-default">
             <div class="panel-heading">GIFs!!</div>
-            <div id="gifs-go-here" class="panel-body"></div>
+              <div class="panel-body">
+              <div class="row">
+                <div id="gifs-go-here"></div>
+              </div> <!-- end inner row -->
+            </div> <!-- end panel body -->
           </div> <!-- end gif image panel -->
         </div> <!-- end gif image col -->
       </div> <!-- end gif image row -->
@@ -50,6 +55,6 @@
 
 
 
-    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/app.js"></script> <!-- link to js file -->
   </body>
 </html>
