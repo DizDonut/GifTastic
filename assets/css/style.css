@@ -3,3 +3,10 @@
   background-color: #a1c4dd;
   color: #fff;
 }
+
+.panel-heading, .jumbotron{
+  text-align: center;
+  background-color: #a1c4dd;
+  font-weight: bold;
+  color: #fff;
+}
